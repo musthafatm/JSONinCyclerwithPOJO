@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
 
-        String url = "http://iroidtech.com/test/details.php";
+        String url = "https://iroidtech.com/test/details.php";
        new  ThreetierTask().execute(url);
     }
 
